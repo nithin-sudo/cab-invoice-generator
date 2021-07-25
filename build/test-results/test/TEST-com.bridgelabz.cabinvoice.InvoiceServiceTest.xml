@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.cabinvoice.InvoiceServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-25T11:53:45" hostname="LAPTOP-NLBRRVK3" time="0.037">
+<testsuite name="com.bridgelabz.cabinvoice.InvoiceServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-25T12:42:51" hostname="LAPTOP-NLBRRVK3" time="0.045">
   <properties/>
-  <testcase name="whenGivenMultipleRidesShouldReturnInvoiceSummary()" classname="com.bridgelabz.cabinvoice.InvoiceServiceTest" time="0.037"/>
-  <system-out><![CDATA[Total Fare = 30.0
-]]></system-out>
+  <testcase name="givenMultipleRidesShouldReturnInvoiceSummary()" classname="com.bridgelabz.cabinvoice.InvoiceServiceTest" time="0.045"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
