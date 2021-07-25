@@ -13,4 +13,13 @@ public class InvoiceServiceTest {
         System.out.println("Total Fare = " + totalFare);
         Assertions.assertEquals(25, totalFare, 0.0);
     }
+    @Test
+    public void whenGivenDistanceAndTimeShouldReturnMinimumFare() {
+        InvoiceGenerator cabInvoiceGenerator = new InvoiceGenerator();
+        double distance = 0.1;
+        int time = 1;
+        double totalFare = cabInvoiceGenerator.calculateFare(distance, time);
+        System.out.println("Total Fare = " + totalFare);
+        Assertions.assertEquals(5, totalFare, 0.0);
+    }
 }
