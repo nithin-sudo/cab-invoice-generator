@@ -22,4 +22,14 @@ public class InvoiceServiceTest {
         System.out.println("Total Fare = " + totalFare);
         Assertions.assertEquals(5, totalFare, 0.0);
     }
+
+    @Test
+    public void whenGivenMultipleRidesShouldReturnInvoiceSummary() {
+        InvoiceGenerator cabInvoiceGenerator = new InvoiceGenerator();
+        Ride[] rides = { new Ride(2.0, 5),
+                         new Ride(0.1, 1)};
+        double totalFare = cabInvoiceGenerator.calculateTotalFare(rides);
+        System.out.println("Total Fare = "+totalFare);
+        Assertions.assertEquals(30, totalFare,0.0);
+    }
 }

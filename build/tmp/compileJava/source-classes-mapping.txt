@@ -1,2 +1,4 @@
 com/bridgelabz/cabinvoice/InvoiceGenerator.java
  com.bridgelabz.cabinvoice.InvoiceGenerator
+com/bridgelabz/cabinvoice/Ride.java
+ com.bridgelabz.cabinvoice.Ride
